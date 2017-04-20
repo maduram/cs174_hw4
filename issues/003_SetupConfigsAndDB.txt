@@ -1,0 +1,3 @@
+Title: Setting up the Config.php file and insert.sql file
+Student: Aishwarya 
+Description: Set up the database connection, name, socket, and tables

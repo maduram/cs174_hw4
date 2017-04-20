@@ -20,7 +20,7 @@ if($conn->connect_error)
 else
 {
 	$conn->select_db(Config::DB_NAME);
-	$conn->query("drop table if exists chartdatatable");
+	$conn->query("drop table if exists spreadsheettable");
 	$handle = fopen("insert.sql", "r");
     	if ($handle) {
     		while (($line = fgets($handle)) !== false) {

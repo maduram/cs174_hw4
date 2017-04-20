@@ -1,0 +1,3 @@
+Title: Setting up DTD
+Student: Madula
+Description: Researched how to set up a DTD using XML
