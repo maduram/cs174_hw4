@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT SpreadSheets (table)+, (h1)+, (l1)+, (l2)+, (td1)+, (td2)+>
+<!ELEMENT table (#PCDATA)>
+<!ELEMENT h1 (#PCDATA)>
+<!ELEMENT l1 (#PCDATA)>
+<!ELEMENT l2 (#PCDATA)>
+<!ELEMENT td1 (#PCDATA)>
+<!ELEMENT td2 (#PCDATA)>
+

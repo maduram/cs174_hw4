@@ -1,0 +1,3 @@
+Title: Setting up Git repository
+Student: Aishwarya 
+Description: Navigate to local repository and then merge local changes with remote master branch
