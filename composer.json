@@ -1,6 +1,6 @@
 {
-    "name": "404_error/Hw4",
-    "type": "project",
+    "name": "404_error/hw4",
+    "type": "homework",
     "authors": [
         {
             "name": "Aishwarya Borkar",
@@ -10,9 +10,8 @@
 		"name": "Madula Ramabathiran",
             	"email": "madularama@gmail.com"	
 	}
-    ],
-  	"require": {
-        "monolog/monolog": "1.0.*"
-    }
-
+    		],
+  	"require": { 
+		"monolog/monolog": "1.0.*" 
+	}
 }
