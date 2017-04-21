@@ -1,5 +1,5 @@
 # CS 174 Homework 4 Project
-## Spring 2017 - Pollett
+## SJSU Spring 2017 - Pollett
 
 This is the CS 174 Homework 4 Project at SJSU in Spring 2017 submitted by:
 **Madula Ramabathiran** and **Aishwarya Borkar**
