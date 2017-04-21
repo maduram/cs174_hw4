@@ -60,6 +60,7 @@ function Spreadsheet(spreadsheet_id, supplied_data)
             this[property_key] = property_defaults[property_key];
         }
     }
+    
     /**
      * Main function used to draw the spreadsheet with the container tag
      */
@@ -107,6 +108,7 @@ function Spreadsheet(spreadsheet_id, supplied_data)
         table += "</table></div>";
         container.innerHTML = table;
     }
+    
     /**
      * Calculates the value of a cell expression in a spreadsheet. Currently,
      * a cell expression is either an integer literal, a non-scientific notation
@@ -177,6 +179,7 @@ function Spreadsheet(spreadsheet_id, supplied_data)
         }
         return out;
     }
+    
     /**
      * Returns the position of the first non-whitespace character after
      * location in the string (returns location if location is non-WS or
@@ -194,6 +197,7 @@ function Spreadsheet(spreadsheet_id, supplied_data)
         }
         return location;
     }
+    
     /**
      * Converts a decimal number to a base 26 number string using A-Z for 0-25.
      * Used where drawing column headers for spreadsheet
@@ -211,6 +215,7 @@ function Spreadsheet(spreadsheet_id, supplied_data)
         } while (number > 25);
         return out;
     }
+    
     /**
      * Given a cell name string, such as B4, converts it to an ordered pair
      * suitable for lookup in the spreadsheets data array. On B4,
@@ -235,6 +240,7 @@ function Spreadsheet(spreadsheet_id, supplied_data)
         }
         return [parseInt(cell_parts[2]), column];
     }
+    
     /**
      * Callback for click events on spreadsheet. Determines if the event
      * occurred on a spreadsheet cell. If so, it opens a prompt for a

@@ -1,0 +1,32 @@
+function validatedata(u_input)
+{
+	var flag = false;
+
+	if (u_input == "")
+	{
+		alert("Please enter a valid input.");
+		flag=false;
+	}
+	else
+	{
+		var regex = /^[A-Za-z\d\s]+$/;
+		var code = /\d{8}/;
+
+		if (code.test(u_input) == true)
+		{
+			var hash = u_input;
+			flag = true;
+		}
+		else if (regex.test(u_input) == true)
+		{
+			var sheetname = u_input;
+			flag = true;
+		}
+		else 
+		{
+			flag=false;
+		}
+	}
+
+	return flag;
+}
